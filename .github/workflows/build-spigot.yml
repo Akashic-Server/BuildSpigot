@@ -35,5 +35,5 @@ jobs:
     - name: Upload Spigot
       uses: actions/upload-artifact@v2
       with:
-        name: All
-        path: ./
+        name: Spigot.jar
+        path: ./spigot*.jar
